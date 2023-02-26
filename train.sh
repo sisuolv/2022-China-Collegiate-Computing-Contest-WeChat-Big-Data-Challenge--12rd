@@ -1,0 +1,21 @@
+python src/mainpre.py --modele_case='hunliu_large'
+python src/mainpre.py --modele_case='hunliu_small'
+python src/mainpre.py --modele_case='double'
+
+python src/main.py  --modele_case='hunliu_large' --seed 2022 --pre_ckpt_file='save/v1/model_hunliu_large_pretain_epoch_19.bin'
+python src/main.py  --modele_case='hunliu_large' --seed 2021 --pre_ckpt_file='save/v1/model_hunliu_large_pretain_epoch_19.bin'
+python src/main.py  --modele_case='hunliu_large' --seed 2020 --pre_ckpt_file='save/v1/model_hunliu_large_pretain_epoch_19.bin'
+python src/main.py  --modele_case='hunliu_large' --seed 2019 --pre_ckpt_file='save/v1/model_hunliu_large_pretain_epoch_19.bin'
+python src/main.py  --modele_case='hunliu_large' --seed 2018 --pre_ckpt_file='save/v1/model_hunliu_large_pretain_epoch_19.bin'
+
+python src/main.py  --modele_case='hunliu_small' --seed 2022 --pre_ckpt_file='save/v1/model_hunliu_small_pretain_epoch_19.bin'
+python src/main.py  --modele_case='hunliu_small' --seed 2021 --pre_ckpt_file='save/v1/model_hunliu_small_pretain_epoch_19.bin'
+python src/main.py  --modele_case='hunliu_small' --seed 2020 --pre_ckpt_file='save/v1/model_hunliu_small_pretain_epoch_19.bin'
+python src/main.py  --modele_case='hunliu_small' --seed 2019 --pre_ckpt_file='save/v1/model_hunliu_small_pretain_epoch_19.bin'
+python src/main.py  --modele_case='hunliu_small' --seed 2018 --pre_ckpt_file='save/v1/model_hunliu_small_pretain_epoch_19.bin'
+
+python src/main.py  --modele_case='double' --seed 2022 --pre_ckpt_file='save/v1/model_double_pretain_epoch_19.bin'
+python src/main.py  --modele_case='double' --seed 2021 --pre_ckpt_file='save/v1/model_double_pretain_epoch_19.bin'
+python src/main.py  --modele_case='double' --seed 2020 --pre_ckpt_file='save/v1/model_double_pretain_epoch_19.bin'
+python src/main.py  --modele_case='double' --seed 2019 --pre_ckpt_file='save/v1/model_double_pretain_epoch_19.bin'
+python src/main.py  --modele_case='double' --seed 2018 --pre_ckpt_file='save/v1/model_double_pretain_epoch_19.bin'

@@ -1,0 +1,5 @@
+numpy
+sklearn
+transformers>=4.0.0
+opencc
+jieba
