@@ -25,4 +25,3 @@ large，small，double：0.700左右；
 
 large，small，double，Xlarge：0.702左右（预训练时间太长，不放差不多也能到误差以内）
 
-有问题联系：18361226138
